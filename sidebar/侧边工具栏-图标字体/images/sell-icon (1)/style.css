@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'sell-icon';
+  src:  url('fonts/sell-icon.eot?8rw0uj');
+  src:  url('fonts/sell-icon.eot?8rw0uj#iefix') format('embedded-opentype'),
+    url('fonts/sell-icon.ttf?8rw0uj') format('truetype'),
+    url('fonts/sell-icon.woff?8rw0uj') format('woff'),
+    url('fonts/sell-icon.svg?8rw0uj#sell-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'sell-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chat:before {
+  content: "\e900";
+}
+.icon-wechat:before {
+  content: "\e901";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
+.icon-arrow-up2:before {
+  content: "\ea3a";
+}
